@@ -79,11 +79,3 @@ def heuristicpathsolver(grid, h, w, isMode1=True):
                 myPos = grid[ii, j]
 
     return totalCost, myPath
-
-
-def displayresults(costAndPath):
-    print('Mode 1 cost = ', costAndPath[0])
-    print('Mode 1 path:')
-    showpath(costAndPath[1])
-    print('Mode 1 grid with path:')
-    gridwithpath(costAndPath[1])
